@@ -39,6 +39,8 @@ For each year and for each type of PM source, the NEI records how many tons of P
 ## Plot 2 
 <b>Question:</b> Have total emissions from PM2.5 decreased in the Baltimore City, Maryland (fips=="24510") from 1999 to 2008? Use the base plotting system to make a plot answering this question.
 
+<b><span style="color: red;">Analysis:</span></b>
+
 <b>Analysis:</b> Ultimately, emissions in Baltimore City, MD have decreased from 1999 to 2008 but it was not a stable decrease in emissions with a spike in 2005.
 
 ![plot2](plot2.png) 
