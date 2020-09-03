@@ -30,7 +30,7 @@ For each year and for each type of PM source, the NEI records how many tons of P
 <b>Question:</b> Have total emissions from PM2.5 decreased in the United States from 1999 to 2008? Using the base plotting system, make a plot showing the total PM2.5 emission from all sources for each of the years 1999, 2002, 2005, and 2008.
 
 
-<b>Analysis:</b> The total PM2.5 emissions across the United States has decreased from 1999 to 2008. The total emissions stabilized from 2002 to 2005 but significantly decreased from 2005-2008. 
+<b>Analysis:</b> According to the graph, a good behavior of PM2.5 emissions is seen, since they have been decreasing systematically. The biggest drop is observed in 2008. 
 
 
 ![plot1](plot1.png) 
@@ -39,9 +39,7 @@ For each year and for each type of PM source, the NEI records how many tons of P
 ## Plot 2 
 <b>Question:</b> Have total emissions from PM2.5 decreased in the Baltimore City, Maryland (fips=="24510") from 1999 to 2008? Use the base plotting system to make a plot answering this question.
 
-<b><span style="color: red;">Analysis:</span></b>
-
-<b>Analysis:</b> Ultimately, emissions in Baltimore City, MD have decreased from 1999 to 2008 but it was not a stable decrease in emissions with a spike in 2005.
+<b>Analysis:</b> According to the graph, a good behavior of PM2.5 emissions is seen, since they have been decreasing systematically. The biggest drop is observed in 2008.
 
 ![plot2](plot2.png) 
 
