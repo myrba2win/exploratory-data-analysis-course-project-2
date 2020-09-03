@@ -39,7 +39,7 @@ For each year and for each type of PM source, the NEI records how many tons of P
 ## Plot 2 
 <b>Question:</b> Have total emissions from PM2.5 decreased in the Baltimore City, Maryland (fips=="24510") from 1999 to 2008? Use the base plotting system to make a plot answering this question.
 
-<b>Analysis:</b> According to the graph, a good behavior of PM2.5 emissions is seen, since they have been decreasing systematically. The biggest drop is observed in 2008.
+<b>Analysis:</b> When observing the behavior of PM2.5 emissions in the city of Baltimore in the entire period analyzed, a decrease in the trend is observed, but in 2005 there was a peak that could be due to weather conditions or sensor failures that could have generate a misinterpretation of the readings.
 
 ![plot2](plot2.png) 
 
@@ -47,7 +47,7 @@ For each year and for each type of PM source, the NEI records how many tons of P
 ## Plot 3 
 <b>Question:</b> Of the four types of sources indicated by the <b>type</b> (point, nonpoint, onroad, nonroad) variable, which of these four sources have seen decreases in emissions from 1999–2008 for Baltimore City? Which have seen increases in emissions from 1999–2008? Use the ggplot2 plotting system to make a plot answer this question.
 
-<b>Analysis:</b> Emissions from on-road, non-point, and on-road sources all significantly decreased from 1999 to 2008. The only source that increased emissions slightly was from the point source. 
+<b>Analysis:</b> When observing in the graph the behavior of PM2.5 emissions for the four cases analyzed, it can be affirmed that there is a decrease in the following sources; "NON-ROAD", "NONPOINT" and "ON-ROAD". The only case that generates uncertainty is that of the "POINT" source, which has grown in emission levels between 1999-2005. The year 2008 shows a significant decrease. We would have to analyze more recent data to provide a better analysis regarding this source. 
 
 ![plot3](plot3.png) 
 
@@ -55,7 +55,7 @@ For each year and for each type of PM source, the NEI records how many tons of P
 ## Plot 4 
 <b>Question:</b> Across the United States, how have emissions from coal combustion-related sources changed from 1999–2008?
   
-  <b>Analysis:</b> Emissions across the United States related to coal combustion has decreased from 1999 to 2008.
+  <b>Analysis:</b> Emission levels between the years 1999-2005 remained very stable with little variation in the decrease of PM2.5. On the other hand, in 2008 there was a very significant decrease in emissions.
 
 ![plot4](plot4.png) 
 
@@ -63,7 +63,7 @@ For each year and for each type of PM source, the NEI records how many tons of P
 ## Plot 5 
 <b>Question:</b> How have emissions from motor vehicle sources changed from 1999–2008 in Baltimore City?
   
-  <b>Analysis:</b> Emissions in Baltimore City, MD related to motor vehicle sources has steadily decreased from 1999 to 2008.
+  <b>Analysis:</b> Between the years 2002-2005 a very strong level of decrease in emissions was observed with respect to the emissions of 1999. The level of improvement in emissions is practically 1/3 with respect to 1999. The year 2008 confirms with another decrease significant, which suggests that well-applied and managed control can improve the whole picture.
 
 ![plot5](plot5.png) 
 
@@ -71,6 +71,7 @@ For each year and for each type of PM source, the NEI records how many tons of P
 ## Plot 6 
 <b>Question:</b> Compare emissions from motor vehicle sources in Baltimore City with emissions from motor vehicle sources in Los Angeles County, California (fips=="06037"). Which city has seen greater changes over time in motor vehicle emissions?
   
-  <b>Analysis:</b> Emissions related to motor vehicle sources in Baltimore City vs Los Angeles has stark differences. Emmissions from Los Angeles heavily over power emissions from Balitimore City. Los Angeles has not decreased motor vehicle emissions at all from 1999 to 2008 while Baltimore City decreased emissions by over half.
+  <b>Analysis:</b> Clearly the emissions behaviors between both cities (Baltimore City and Los Angeles County) are comparable. In the case of Baltimore, if there is a strong decrease from 2002 onwards with respect to the measurements of 1999. The decrease is sustained over time.
+With respect to Los Angeles, emission levels have been growing. Only the year 2008 is a decrease. It would be necessary to see behaviors of more recent years to understand the current scenario.
 
 ![plot6](plot6.png) 
