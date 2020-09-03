@@ -27,9 +27,7 @@ dim(SCC)
 
 library(ggplot2)
 
-## Across the United States, how have emissions from coal combustion-related sources changed from 1999–2008?
-
-## Subset coal combustion related NEI data
+## How have emissions from motor vehicle sources changed from 1999–2008 in Baltimore City?
 
 
 png("plot5.png", width=640, height=480)

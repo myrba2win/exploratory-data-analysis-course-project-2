@@ -29,7 +29,6 @@ library(ggplot2)
 
 ## Across the United States, how have emissions from coal combustion-related sources changed from 1999–2008?
 
-## Subset coal combustion related NEI data
 
 
 png("plot4.png", width=640, height=480)
